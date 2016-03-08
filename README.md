@@ -7,8 +7,8 @@ A stack-based language intended for code golfing.
 The Basics
 ==========
 
-"<string>" - pushes "<string>" to the stack (also sets target to this index)
-<number> - sets the target to the <number>th index
+"string" - pushes "string" to the stack (also sets target to this index)
+number - sets the target to the numberth index
 < - shift the stack over to the left by one (i.e. index 2 becomes 1, 1 becomes 0, 0 becomes length(stack)...)
 > - shift the stack over to the right by one (i.e. index length(stack) becomes 0, 0 becomes 1, 1 becomes 2...)
 x - pop the target off the stack
@@ -21,7 +21,7 @@ l - length of target
 n - number of elements in the stack
 s - convert to string
 p - print target
-<number>="<string>" - set index <number> to <string>
+number="string" - set index number to string
 
 By default, the program prints the target at the end
 
