@@ -29,9 +29,9 @@ Example
 =======
 
 INPUT:  
-"hi"rpu
+    "hi"rpu
 
 OUTPUT:  
-ih
-IH
+    ih
+    IH
 
