@@ -9,8 +9,8 @@ The Basics
 
 "string" - pushes "string" to the stack (also sets target to this index)
 number - sets the target to the numberth index
-< - shift the stack over to the left by one (i.e. index 2 becomes 1, 1 becomes 0, 0 becomes length(stack)...)
-> - shift the stack over to the right by one (i.e. index length(stack) becomes 0, 0 becomes 1, 1 becomes 2...)
+(less than) < - shift the stack over to the left by one (i.e. index 2 becomes 1, 1 becomes 0, 0 becomes length(stack)...)
+(greater than) > - shift the stack over to the right by one (i.e. index length(stack) becomes 0, 0 becomes 1, 1 becomes 2...)
 x - pop the target off the stack
 r - reverse target
 u - upcase target
@@ -28,10 +28,10 @@ By default, the program prints the target at the end
 Example
 =======
 
-INPUT:
+INPUT:  
 "hi"rpu
 
-OUTPUT:
+OUTPUT:  
 ih
 IH
 
